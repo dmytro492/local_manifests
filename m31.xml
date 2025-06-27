@@ -19,12 +19,10 @@
   <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="lineage"/>
   <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="lineage"/>
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineage"/>
-  <!-- kernel -->
-  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="origin" revision="AOSP"/>
-  <!-- device trees -->
+  <!-- unofficial stuff -->
+  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="origin"/>
   <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="origin"/>
   <project path="device/samsung/m31" name="android_device_samsung_m31" remote="origin"/>
-  <!-- vendor trees -->
   <project path="vendor/samsung/universal9611-common" name="android_vendor_samsung_universal9611-common" remote="origin"/>
   <project path="vendor/samsung/m31" name="android_vendor_samsung_m31" remote="origin"/>
 </manifest>
