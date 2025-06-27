@@ -3,26 +3,23 @@
   <remote name="origin"
      fetch="https://github.com/dmytro492/"
      revision="lineage-22.2" />
-  <remote name="lineage"
-     fetch="https://github.com/LineageOS/"
-     revision="lineage-22.2" />
     <!-- official los stuff -->
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage"/>
-  <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="lineage"/>
-  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="lineage"/>
-  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="lineage"/>
-  <project path="hardware/samsung_slsi-linaro/codec2" name="android_hardware_samsung_slsi-linaro_codec2" remote="lineage"/>
-  <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="lineage"/>
-  <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="lineage"/>
-  <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="lineage"/>
-  <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="lineage"/>
-  <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="lineage"/>
-  <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="lineage"/>
-  <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineage"/>
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung"/>
+  <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt"/>
+  <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"/>
+  <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"/>
+  <project path="hardware/samsung_slsi-linaro/codec2" name="LineageOS/android_hardware_samsung_slsi-linaro_codec2"/>
+  <project path="hardware/samsung_slsi-linaro/config" name="LineageOS/android_hardware_samsung_slsi-linaro_config"/>
+  <project path="hardware/samsung_slsi-linaro/exynos" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos"/>
+  <project path="hardware/samsung_slsi-linaro/exynos5" name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5"/>
+  <project path="hardware/samsung_slsi-linaro/graphics" name="LineageOS/android_hardware_samsung_slsi-linaro_graphics"/>
+  <project path="hardware/samsung_slsi-linaro/openmax" name="LineageOS/android_hardware_samsung_slsi-linaro_openmax"/>
+  <project path="hardware/samsung_slsi-linaro/interfaces" name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces"/>
+  <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy"/>
   <!-- unofficial stuff -->
-  <project path="kernel/samsung/universal9611" name="android_kernel_samsung_universal9611" remote="origin"/>
-  <project path="device/samsung/universal9611-common" name="android_device_samsung_universal9611-common" remote="origin"/>
-  <project path="device/samsung/m31" name="android_device_samsung_m31" remote="origin"/>
-  <project path="vendor/samsung/universal9611-common" name="android_vendor_samsung_universal9611-common" remote="origin"/>
-  <project path="vendor/samsung/m31" name="android_vendor_samsung_m31" remote="origin"/>
+  <project path="kernel/samsung/universal9611" name="kernel/samsung/universal9611" remote="origin"/>
+  <project path="device/samsung/universal9611-common" name="device/samsung/universal9611-common" remote="origin"/>
+  <project path="device/samsung/m31" name="device/samsung/m31" remote="origin"/>
+  <project path="vendor/samsung/universal9611-common" name="vendor/samsung/universal9611-common" remote="origin"/>
+  <project path="vendor/samsung/m31" name="vendor/samsung/m31" remote="origin"/>
 </manifest>
